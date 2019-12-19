@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fontFamily">@font/roboto_ui</item>
+
+    </style>
+
+    <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark" />
+
+
+    <style name="ToolBarTheme">
+        <item name="android:fontFamily">@font/robotomedium</item>
+        <item name="android:textColor">@color/titleColor</item>
+        <item name="android:textSize">@dimen/padding_21</item>
+    </style>
+
+    <style name="AuthorStyle">
+        <item name="android:fontFamily">@font/robotoregular</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/padding_12</item>
+    </style>
+
+    <style name="NameStyle">
+        <item name="android:fontFamily">@font/robotomedium</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/padding_15</item>
+
+    </style>
+
+    <style name="ErrorStyle">
+        <item name="android:fontFamily">@font/robotobold</item>
+        <item name="android:textSize">@dimen/padding_18</item>
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+
+
+
+
+</resources>

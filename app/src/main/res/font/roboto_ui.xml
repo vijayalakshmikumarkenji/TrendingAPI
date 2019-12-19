@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font app:font="@font/robotoblack" />
+    <font app:font="@font/robotoblackitalic" />
+    <font app:font="@font/robotobold" />
+    <font app:font="@font/robotobolditalic" />
+    <font app:font="@font/robotoitalic" />
+    <font app:font="@font/robotolight" />
+    <font app:font="@font/robotolightitalic" />
+    <font app:font="@font/robotomedium" />
+    <font app:font="@font/robotomediumitalic" />
+    <font app:font="@font/robotoregular" />
+    <font app:font="@font/robotothinitalic" />
+    <font app:font="@font/robotothin" />
+
+</font-family>

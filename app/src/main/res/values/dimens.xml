@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="action_bar_height">56dp</dimen>
+    <dimen name="padding_18">18dp</dimen>
+    <dimen name="padding_16">16dp</dimen>
+    <dimen name="padding_24">24dp</dimen>
+    <dimen name="padding_12">12dp</dimen>
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="padding_14">14dp</dimen>
+    <dimen name="padding_21">21dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+    <dimen name="image_size">32dp</dimen>
+    <dimen name="padding_100">100dp</dimen>
+    <dimen name="padding_260">260dp</dimen>
+
+</resources>
