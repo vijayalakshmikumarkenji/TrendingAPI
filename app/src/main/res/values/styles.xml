@@ -12,9 +12,6 @@
 
     </style>
 
-    <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark" />
-
-
     <style name="ToolBarTheme">
         <item name="android:fontFamily">@font/robotomedium</item>
         <item name="android:textColor">@color/titleColor</item>
@@ -40,7 +37,12 @@
         <item name="android:textColor">@color/dark_gray</item>
     </style>
 
+    <style name="TextStyle">
+        <item name="android:fontFamily">@font/robotoregular</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/padding_12</item>
 
+    </style>
 
 
 </resources>

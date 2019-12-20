@@ -89,8 +89,6 @@ public class TrendingActivity extends AppCompatActivity implements SwipeRefreshL
     private void setPullToRefreshView() {
         mSwipeToRefreshView = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_view);
         mSwipeToRefreshView.setOnRefreshListener(this);
-        mSwipeToRefreshView.setBackground(getResources().getDrawable(R.drawable.refresh));
-
     }
 
     private void getTrendingList() {
