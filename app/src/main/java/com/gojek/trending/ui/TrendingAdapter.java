@@ -99,7 +99,7 @@ public class TrendingAdapter extends RecyclerView.Adapter<TrendingAdapter.Trendi
             trendingViewHolder.mLanguageTextView
                     .setText(mTrendingResponseList.get(i).getLanguage());
         } else {
-            trendingViewHolder.mLanguageTextView.setText("No Language Mentioned");
+            trendingViewHolder.mLanguageTextView.setText("Nil");
         }
         GradientDrawable gd = new GradientDrawable();
         gd.setShape(GradientDrawable.OVAL);
