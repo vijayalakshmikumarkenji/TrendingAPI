@@ -1,3 +1,19 @@
+/*
+ * Copyright 2019 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 package com.gojek.trending.ui;
 
 import android.content.Context;
@@ -24,6 +40,11 @@ import com.gojek.trending.model.TrendingResponse.TrendingResponse;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Created by Vijiayalakshmi.K.K
+ * <p>
+ * Adapter file to handle view functionality to show list of trending from github
+ */
 public class TrendingAdapter extends RecyclerView.Adapter<TrendingAdapter.TrendingViewHolder> {
 
     Context mContext;
@@ -132,6 +153,9 @@ public class TrendingAdapter extends RecyclerView.Adapter<TrendingAdapter.Trendi
         return mTrendingResponseList.size();
     }
 
+    /**
+     * Holder class to define the view of recycler row view
+     */
     public class TrendingViewHolder extends RecyclerView.ViewHolder {
         private LinearLayout mNameLinearLayoutView;
         private ImageView mUserImageView;
